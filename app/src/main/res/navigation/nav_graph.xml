@@ -14,11 +14,17 @@
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment2"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment3"
+            app:destination="@id/SecondFragment" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
         android:name="com.example.introtomyfirstapp.SecondFragment"
-        android:label="@string/second_fragment_label"
+        android:label="@string/random_heading"
         tools:layout="@layout/fragment_second">
 
         <action
